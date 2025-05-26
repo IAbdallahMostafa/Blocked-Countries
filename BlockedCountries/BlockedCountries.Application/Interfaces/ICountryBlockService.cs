@@ -1,7 +1,7 @@
 ﻿
 namespace BlockedCountries.Application.Interfaces
 {
-    public interface IBlockCountryService
+    public interface ICountryBlockService
     {
         bool AddBlockedCountry(string countryCode);
         bool RemoveBlockedCountry(string countryCode);

@@ -6,10 +6,10 @@ namespace BlockedCountries.Infrastructure.Services
 {
     public class TemporalBlockCleanupService : BackgroundService
     {
-        private readonly IBlockCountryService _blockService;
+        private readonly ICountryBlockService _blockService;
         private readonly ILogger<TemporalBlockCleanupService> _logger;
 
-        public TemporalBlockCleanupService(IBlockCountryService blockService, ILogger<TemporalBlockCleanupService> logger)
+        public TemporalBlockCleanupService(ICountryBlockService blockService, ILogger<TemporalBlockCleanupService> logger)
         {
             _blockService = blockService;
             _logger = logger;

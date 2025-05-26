@@ -4,7 +4,7 @@ using System.Collections.Concurrent;
 
 namespace BlockedCountries.Application.Services
 {
-    public class CountryBlockService : IBlockCountryService
+    public class CountryBlockService : ICountryBlockService
     {
         private readonly ConcurrentDictionary<string, CountryBlock> _blockedCountries = new();
         private readonly object _lock = new();

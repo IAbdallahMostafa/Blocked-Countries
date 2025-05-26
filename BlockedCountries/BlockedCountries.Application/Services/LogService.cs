@@ -4,7 +4,7 @@ using BlockedCountries.Application.Interfaces;
 
 namespace BlockedCountries.Application.Services
 {
-    class LogService : ILogService
+    public class LogService : ILogService
     {
         private readonly List<BlockedAttempLog> _logs = new();
         public IEnumerable<BlockedAttemptDto> GetLogs(int page, int pageSize)

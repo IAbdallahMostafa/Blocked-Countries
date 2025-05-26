@@ -1,3 +1,6 @@
+using BlockedCountries.Application.Interfaces;
+using BlockedCountries.Application.Services;
+using BlockedCountries.Infrastructure.Services;
 
 namespace BlockedCountries.API
 {
@@ -8,9 +11,14 @@ namespace BlockedCountries.API
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddHttpClient();
+            builder.Services.AddSingleton<ICountryBlockService, CountryBlockService>();
+            builder.Services.AddSingleton<ILogService, LogService>();
+            builder.Services.AddSingleton<IGeoLocationService, GeoLocationService>();
+            builder.Services.AddHostedService<TemporalBlockCleanupService>();
+
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
