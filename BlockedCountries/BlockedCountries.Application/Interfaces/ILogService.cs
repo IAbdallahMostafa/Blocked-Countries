@@ -5,7 +5,7 @@ namespace BlockedCountries.Application.Interfaces
 {
     public interface ILogService
     {
-        public void LogAttemp(BlockedAttempLog log);
-        public IEnumerable<BlockedAttemptDto> GetLogs(int page, int pageSize);
+         void LogAttemp(BlockedAttempLog log);
+         IEnumerable<BlockedAttemptDto> GetLogs(int page, int pageSize);
     }
 }
