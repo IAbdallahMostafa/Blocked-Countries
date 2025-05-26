@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlockedCountries.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2018882c0acac4c0d2c1610958aae84329aee9a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+900a02c77fd24cbb2b2396aca1990b7d0b5d86f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlockedCountries.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlockedCountries.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
