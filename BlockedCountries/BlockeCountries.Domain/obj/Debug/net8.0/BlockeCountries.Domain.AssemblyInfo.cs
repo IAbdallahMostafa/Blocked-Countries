@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlockeCountries.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21561fe338cedae2b2f59a4b4176722afdba3b67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c26f76dbfd7e93765e4929a04f8c2911587e4953")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlockeCountries.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlockeCountries.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
