@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlockeCountries.Domain\BlockeCountries.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\bin\Debug\net8.0\BlockeCountries.Domain.deps.json
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\bin\Debug\net8.0\BlockeCountries.Domain.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\bin\Debug\net8.0\BlockeCountries.Domain.pdb
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.AssemblyInfoInputs.cache
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.AssemblyInfo.cs
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.csproj.CoreCompileInputs.cache
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.sourcelink.json
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\refint\BlockeCountries.Domain.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\BlockeCountries.Domain.pdb
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockeCountries.Domain\obj\Debug\net8.0\ref\BlockeCountries.Domain.dll

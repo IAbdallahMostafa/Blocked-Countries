@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BlockedCountries.Application/1.0.0": {
+        "dependencies": {
+          "BlockeCountries.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BlockedCountries.Application.dll": {}
+        }
+      },
+      "BlockeCountries.Domain/1.0.0": {
+        "runtime": {
+          "BlockeCountries.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlockedCountries.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlockeCountries.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

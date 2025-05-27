@@ -1,0 +1,16 @@
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\bin\Debug\net8.0\BlockedCountries.Application.deps.json
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\bin\Debug\net8.0\BlockedCountries.Application.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\bin\Debug\net8.0\BlockedCountries.Application.pdb
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\bin\Debug\net8.0\BlockeCountries.Domain.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\bin\Debug\net8.0\BlockeCountries.Domain.pdb
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.csproj.AssemblyReference.cache
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.AssemblyInfoInputs.cache
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.AssemblyInfo.cs
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.csproj.CoreCompileInputs.cache
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.sourcelink.json
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedC.05A7E73B.Up2Date
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\refint\BlockedCountries.Application.dll
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\BlockedCountries.Application.pdb
+E:\Back-end\ASP.NET Projects\Blocked-Countries\BlockedCountries\BlockedCountries.Application\obj\Debug\net8.0\ref\BlockedCountries.Application.dll

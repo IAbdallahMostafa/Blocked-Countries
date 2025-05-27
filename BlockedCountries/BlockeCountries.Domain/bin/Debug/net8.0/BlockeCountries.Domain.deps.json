@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BlockeCountries.Domain/1.0.0": {
+        "runtime": {
+          "BlockeCountries.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlockeCountries.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
