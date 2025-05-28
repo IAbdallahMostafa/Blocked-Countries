@@ -1,26 +1,30 @@
 ﻿using BlockedCountries.Application.DTOs;
+using BlockedCountries.Application.Exceptions;
 using BlockedCountries.Application.Interfaces;
-using BlockedCountries.Application.Services;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
+using System.Net;
 
 namespace BlockedCountries.Infrastructure.Services
 {
     public class GeoLocationService : IGeoLocationService
     {
         private readonly HttpClient _httpClient;
-        private readonly string _apiUrl;
-
-        public GeoLocationService(HttpClient httpClient, IConfiguration config)
+        private readonly IOptions<GeoApiOptions> _geoOptions;
+        public GeoLocationService(HttpClient httpClient, IConfiguration config, IOptions<GeoApiOptions> geoOptions)
         {
             _httpClient = httpClient;
-            _apiUrl = config["GeoApi:BaseUrl"];
+            _geoOptions = geoOptions;
         }
 
         public async Task<LookupResultDto?> LookupAsync(string ip)
         {
-            var url = $"{_apiUrl}/{ip}/json/";
+            var url = $"{_geoOptions.Value.BaseUrl}?apiKey={_geoOptions.Value.ApiKey}&ip={ip}";
             var response = await _httpClient.GetAsync(url);
+
+            if (response.StatusCode == HttpStatusCode.TooManyRequests)
+                throw new GeoRateLimitException("Rate limit reached for geo lookup");
 
             if (!response.IsSuccessStatusCode) return null;
 
@@ -29,10 +33,10 @@ namespace BlockedCountries.Infrastructure.Services
 
             return new LookupResultDto
             {
-                CountryCode = result.country_code,
+                CountryCode = result.country_code2,
                 CountryName = result.country_name,
                 Ip = result.ip,
-                ISP = result.org
+                ISP = result.isp
             };
         }
     }

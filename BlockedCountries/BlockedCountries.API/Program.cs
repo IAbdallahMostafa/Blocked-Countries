@@ -1,3 +1,4 @@
+using BlockedCountries.Application.DTOs;
 using BlockedCountries.Application.Interfaces;
 using BlockedCountries.Application.Services;
 using BlockedCountries.Infrastructure.Services;
@@ -16,6 +17,7 @@ namespace BlockedCountries.API
             builder.Services.AddSingleton<ILogService, LogService>();
             builder.Services.AddSingleton<IGeoLocationService, GeoLocationService>();
             builder.Services.AddHostedService<TemporalBlockCleanupService>();
+            builder.Services.Configure<GeoApiOptions>(builder.Configuration.GetSection("GeoApi"));
 
 
             builder.Services.AddControllers();
