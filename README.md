@@ -69,8 +69,8 @@ GET /api/ip/check-block
 GET /api/logs/blocked-attempts?page=1&pageSize=5
 
 ## Author
-Developed by:
-Abdallah Mostafa
-Dotnet Developer 
-LinkedIn: https://www.linkedin.com/in/Iabdallah-mostafa
+### Developed by:
+#### Abdallah Mostafa
+#### Dotnet Developer 
+### LinkedIn: https://www.linkedin.com/in/Iabdallah-mostafa
 
