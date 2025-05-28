@@ -40,32 +40,32 @@ In order to use it, you need to generate a free API key and add it to your `apps
 }
 
 ## Sample Endpoints
-Block a country permanently
+### Block a country permanently
 POST /api/countries/block
 {
   "countryCode": "US"
 }
 
-Unblock a country
+### Unblock a country
 DELETE /api/countries/block/US
 
-Temporarily block a country
+### Temporarily block a country
 POST /api/countries/temporal-block
 {
   "countryCode": "EG",
   "durationMinutes": 60
 }
 
-Get all blocked countries
+### Get all blocked countries
 GET /api/countries/blocked?page=1&pageSize=10&search=E
 
-Lookup IP information
+### Lookup IP information
 GET /api/ip/lookup?ipAddress=1.1.1.1
 
-Check if the current IP is blocked
+### Check if the current IP is blocked
 GET /api/ip/check-block
 
-View blocked access logs
+### View blocked access logs
 GET /api/logs/blocked-attempts?page=1&pageSize=5
 
 ## Author
